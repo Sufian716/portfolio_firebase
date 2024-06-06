@@ -1,5 +1,5 @@
 ## calculator_app
-A new Flutter project.
+A calculator with flutter from Sufian Bourkha
 
 ## Getting Started
 This project is a starting point for a Flutter application.
