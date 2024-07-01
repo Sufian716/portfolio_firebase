@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "firebase": "^10.12.2"
+  },
+  "name": "portfolio_5319149_final-main",
+  "version": "1.0.0",
+  "description": "Name:Sufian Bourkha Tahiri E-mail:sufian.bourkha.tahiri@mnd.thm.de # Portfolio Projekt",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
