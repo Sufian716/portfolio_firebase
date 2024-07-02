@@ -3,17 +3,17 @@
     "platforms": {
       "dart": {
         "lib/firebase_options.dart": {
-          "projectId": "portfolio-716",
+          "projectId": "cts-716",
           "configurations": {
-            "web": "1:611281999587:web:2fc32d9bce65a985ccd7d6",
-            "windows": "1:611281999587:web:c770a2a6359a63acccd7d6"
+            "web": "1:625144944670:web:0b2878122e582c948bb60f",
+            "windows": "1:625144944670:web:0b2878122e582c948bb60f"
           }
         }
       }
     }
   },
   "hosting": {
-    "public": "y",
+    "public": "build/web",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -5,6 +5,21 @@ class ProjectProvider extends ChangeNotifier {
   int selectedProject = 0;
 
   List<ProjectModel> projects = [
+
+     ProjectModel(
+      projectName: "Rolloutkoordinator bei ZDF",
+      projectDescription:
+          "Ich war als Rolloutkoordinator beim ZDF tätig. In dieser Rolle habe ich die strategische Planung und Durchführung komplexer IT-Projekte übernommen. Dazu gehörten effektives Ressourcenmanagement und die taktische Teamkoordination. Mit großer Genauigkeit führte ich anspruchsvolle Funktionstests durch und stellte eine strenge Qualitätssicherung sicher. Darüber hinaus instruierte und bildete ich Teammitglieder weiter. Zu meinen Aufgaben zählten die profunde Konfiguration von Laptops und die gezielte Aktualisierung von iOS-Geräten. Ich überwachte kontinuierlich den Projektfortschritt und erstellte präzise Berichte. Zudem sorgte ich für eine genaue Prozessüberwachung und behob schnell Probleme vor Ort.",
+      techStack: [
+        "Sitetracker",
+        "Matrix42",
+        "Activ Directory",
+      ],
+      images: [
+        "assets/projects/portfolio/ZDF_logo.jpg",
+        
+      ],
+    ),
     ProjectModel(
       projectName: "Portfolio Website",
       projectDescription:
@@ -22,20 +37,7 @@ class ProjectProvider extends ChangeNotifier {
       ],
     ),
 
-    ProjectModel(
-      projectName: "Rolloutkoordinator bei ZDF",
-      projectDescription:
-          "Ich war als Rolloutkoordinator beim ZDF tätig. In dieser Rolle habe ich die strategische Planung und Durchführung komplexer IT-Projekte übernommen. Dazu gehörten effektives Ressourcenmanagement und die taktische Teamkoordination. Mit großer Genauigkeit führte ich anspruchsvolle Funktionstests durch und stellte eine strenge Qualitätssicherung sicher. Darüber hinaus instruierte und bildete ich Teammitglieder weiter. Zu meinen Aufgaben zählten die profunde Konfiguration von Laptops und die gezielte Aktualisierung von iOS-Geräten. Ich überwachte kontinuierlich den Projektfortschritt und erstellte präzise Berichte. Zudem sorgte ich für eine genaue Prozessüberwachung und behob schnell Probleme vor Ort.",
-      techStack: [
-        "Sitetracker",
-        "Matrix42",
-        "Activ Directory",
-      ],
-      images: [
-        "assets/projects/portfolio/zdf_logo.png",
-        
-      ],
-    ),
+   
     //coming soon project (default)
     ProjectModel(
       projectName: "Coming Soon",

@@ -25,8 +25,9 @@ class IntroSection extends StatelessWidget {
           bottom: 20),
       child: Stack(
         children: [
-           SizedBox(),
-               Opacity(
+          isMobile || isTablet
+              ? const SizedBox()
+              : Opacity(
                   opacity: 0.3,
                   child: LottieBuilder.asset(
                     "assets/dots_animation.json",

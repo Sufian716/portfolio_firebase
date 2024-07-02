@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "portfolio-716"
-  }
+    "default": "cts-716",
+    "cts": "portfolio-716"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
